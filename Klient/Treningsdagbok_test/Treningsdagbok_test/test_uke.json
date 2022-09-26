@@ -1,0 +1,81 @@
+[
+    {
+        "dato": "10.08",
+        "treninger": [
+            {
+                "nr": 1,
+                "overskrift": "Test 1",
+                "tid": 45,
+                "dist": 7.0,
+                "rpe": 1
+            }
+        ]
+    },
+    {
+        "dato": "11.08",
+        "treninger": [
+            {
+                "nr": 2,
+                "overskrift": "test 2.1",
+                "tid": 20,
+                "dist": 2.0,
+                "rpe": 5
+            }
+        ]
+    },
+    {
+        "dato": "12.08",
+        "treninger": [
+            {
+                "nr": 3,
+                "overskrift": "intervall",
+                "tid": 50,
+                "dist": 10.0,
+                "rpe": 9
+            }
+        ]
+    },
+    {
+        "dato": "13.08",
+        "treninger": [
+            {
+                "nr": 4,
+                "overskrift": "skade",
+                "tid": 30,
+                "dist": 3.0,
+                "rpe": 5
+            }
+        ]
+    },
+    {
+        "dato": "14.08",
+        "treninger": [
+            {
+                "nr": 5,
+                "overskrift": "konkurranse",
+                "tid": 50,
+                "dist": 10.0,
+                "rpe": 4
+            }
+        ]
+    },
+    {
+        "dato": "15.08",
+        "treninger": [
+            {
+                "nr": 6,
+                "overskrift": "standarøkt 2",
+                "tid": 60,
+                "dist": 14.0,
+                "rpe": 5
+            },
+            {
+                "nr": 7,
+                "overskrift": "standarøkt 1",
+                "tid": 30,
+                "dist": 14.0,
+                "rpe": 3
+            }
+        ]
+    }
+]
