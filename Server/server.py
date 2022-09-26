@@ -10,15 +10,15 @@ import gps_system
 
 class Server():
 	def __init__(self):
-		dbname = 'postgres'
-		user = 'newuser'
-		pwd = 'password'
+		dbname = # add database name
+		user = # add database username
+		pwd = # add database password
 		host = '127.0.0.1'
 	
 		self.conn = psycopg2.connect(user=user,
 									 password=pwd,
 									 host=host,
-									 port="5432", 
+									 port= #add port to database, 
 									 database=dbname)
 
 		cur = self.conn.cursor()
