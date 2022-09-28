@@ -1,16 +1,17 @@
 
+## Treningsdagbok
+Program for å logge og lagre trening. 
 
-## Plans
-- Kommentar for hver uke
-- Logge sykdom
-- Importere fra strava
-- TRIMP
-- Legge til tredemølle
-- Legge til mer statistikk
-- Teste
-- Tilbakeknapp
+## Oppdeling
+### Database
+- Postgresql database
+- Lagrer all data
+- Inneholder diverse filer for oppsett av database
 
-## Changelog
+### Server
+- Python server basert på FastAPI
+- Henter data fra databasen og sender dem videre ved forespørsel
 
-### 11.4.22
-La til statistikk for spesifikke bevegelsesformer
+### Klient
+- Swift program som skal gi et grafisk grensesnitt til serveren og APIen
+- Laget så enkelt som mulig, viser i stor grad bare en json fil fra serveren
