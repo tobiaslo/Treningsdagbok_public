@@ -6,9 +6,9 @@ import time
 class Strava_connection:
 
 	def __init__(self):
-		self._client_id = 88615
-		self._client_secret = "c4b8c3024d399027e5bd4c843fc9f289ebeab49b"
-		self._refresh_token = "730c3693109adf0512dd73fe6a8d2f0418182b67"
+		self._client_id = 
+		self._client_secret = 
+		self._refresh_token = 
 		self._access_token = None
 		self._expires_at = 0
 
